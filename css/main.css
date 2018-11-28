@@ -1,6 +1,6 @@
 body {
     padding-top: 60px;
-    background-color: lightyellow;
+    background-color: grey;
 }
 
 .box {
@@ -15,11 +15,15 @@ body {
 .box h1 {
     margin: 20px;
     text-align: center;
+    color: lightgrey;
 }
 
 .box button{
-    margin: 20px;
+    margin: 0 20px;
     text-align: center;
 }
 
+button :hover{
+    cursor: pointer;
+}
 
