@@ -1,0 +1,25 @@
+body {
+    padding-top: 60px;
+    background-color: lightyellow;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.box h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.box button{
+    margin: 20px;
+    text-align: center;
+}
+
+
