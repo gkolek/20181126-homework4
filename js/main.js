@@ -3,11 +3,13 @@ var clicks = 0;
 function substractClick() {
     clicks -= 1;
     document.getElementById("clickCounter1").innerHTML = clicks;
+console.log(clicks);
 };
 function addClick() {
     clicks += 1;
     document.getElementById("clickCounter1").innerHTML = clicks;
 };
+
 
 var clicks1 = 0;
 function minusClick() {
